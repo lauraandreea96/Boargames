@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATShop</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <!-- boxicons -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- app css -->
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <!-- mobile menu -->
+        <div class="mobile-menu bg-second">
+            <a href="#" class="mb-logo">BoardPlay</a>
+            <span class="mb-menu-toggle" id="mb-menu-toggle">
+                <i class='bx bx-menu'></i>
+            </span>
+        </div>
+        <!-- end mobile menu -->
+        <!-- main header -->
+        <div class="header-wrapper" id="header-wrapper">
+            <span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
+                <i class='bx bx-x'></i>
+            </span>
+            
+            <!-- mid header -->
+            <div class="bg-main">
+                <div class="mid-header flex-container container">
+                    <a href="#" class="logo">BoardPlay</a>
+                    <div class="search">
+                        <input type="text" placeholder="Search">
+                        <i class='bx bx-search-alt'></i>
+                    </div>
+                    <ul class="user-menu">
+                        <li><a href="#"><i class='bx bx-heart'></i></a></li>
+                        <li><a href="#"><i class='bx bx-user-circle'></i></a></li>
+                        <li><a href="#"><i class='bx bx-cart'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end mid header -->
+            <!-- bottom header -->
+            <div class="bg-second">
+                <div class="bottom-header container">
+                    <ul class="main-menu flex-container">
+                        <li><a href="#">home</a></li>
+                        <!-- mega menu -->
+                        <li class="mega-dropdown">
+                            <a href="./products.html">Products<i class='bx bxs-chevron-down'></i></a>
+                            <div class="mega-content">
+                                <div class="flex-container">
+                                                                   
+                                            <ul>
+                                                <li><a href="#">Family</a></li>
+                                                <li><a href="#">Strategy</a></li>
+                                                <li><a href="#">Party</a></li>  
+                                                <div class="img-row">
+                                                    <img src="./img/A Thief's Fortune-1.jpg" alt="">
+                                                </div>                                    
+                                            </ul>
+                                                                            
+                                            <ul>
+                                                <li><a href="#">2 Players</a></li>
+                                                <li><a href="#">Kids</a></li>
+                                                <li><a href="#">Logic/Abstract</a></li>
+                                                <div class="img-row">
+                                                    <img src="./img/Akrotiri-1.jpg" alt="">
+                                                </div>
+                                            </ul>
+                                                                                                         
+                                            <ul>
+                                                <li><a href="#">Story</a></li>
+                                                <li><a href="#">Cooperative</a></li>
+                                                <li><a href="#">Educational</a></li>
+                                                <div class="img-row">
+                                                    <img src="./img/Arcadia Quest-1.jpg" alt="">
+                                                </div>
+                                            </ul>
+                                                               
+                                            <ul>
+                                                <li><a href="#">RPGs</a></li>
+                                                <li><a href="#">Cards</a></li>
+                                                <li><a href="#">Extensions</a></li>
+                                                <div class="img-row">
+                                                    <img src="./img/Pathfinder-1.jpg" alt="">
+                                                </div>
+                                            </ul>
+                                        
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end mega menu -->
+                        <li><a href="#">Special Offers</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end bottom header -->
+        </div>
+        <!-- end main header -->
+    </header>
+    <!-- end header -->
+
+    <!-- hero section -->
+    <section class="hero">
+        <div class="slider">
+            <div class="container">
+                <!-- slide item -->
+                <div class="slide flex-container active">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Family
+                            </h3>
+                            <h1 class="top-down">
+                                Azul: Stained Glass of Sintra
+                            </h1>
+                            <p class="top-down">
+                                Created by Michael Kiesling, Azul: Stained Glass of Sintra challenges players to carefully select glass panes to complete
+                                 their windows while being careful not to damage or waste supplies in the process. 
+                            </p>
+                            <div class="top-down">
+                                <button class="btn-flat btn-hover">
+                                    <span>See Product</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img top-down">
+                        <img src="./img/Azul-1.jpg" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide flex-container">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                2 Players
+                            </h3>
+                            <h1 class="top-down">
+                                Battlelore
+                            </h1>
+                            <p class="top-down">
+                                Prepare for fantasy battles beyond your wildest imagination with the onslaught of BattleLore Second Edition. Set in the 
+                                fantasy realm of Terrinoth and battle between the hardy defenses of the Daqan Lords garrison in Nordgard Castle. 
+                            </p>
+                            <div class="top-down">
+                                <button class="btn-flat btn-hover">
+                                    <span>See Product</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img right-left">
+                        <img src="./img/Battlelore-1.jpg" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide flex-container">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Strategy
+                            </h3>
+                            <h1 class="top-down">
+                                2491 Planetship
+                            </h1>
+                            <p class="top-down">
+                                You are the captain of a world-sized spacecraft that wonders through the galaxy and you've received a 
+                                distress signal from the Mothership Alpha! Quickly making their way to the signal's co-ordinates, players 
+                                are confronted with the horrible vision of a now-crumbling planetship.
+                            </p>
+                            <div class="top-down">
+                                <button class="btn-flat btn-hover">
+                                    <span>See Product</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img left-right">
+                        <img src="./img/2491 Planetship-1.jpg" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+            </div>
+            <!-- slider controller -->
+            <button class="slide-controll slide-next">
+                <i class='bx bxs-chevron-right'></i>
+            </button>
+            <button class="slide-controll slide-prev">
+                <i class='bx bxs-chevron-left'></i>
+            </button>
+            <!-- end slider controller -->
+        </div>
+    </section>
+    <!-- end hero section -->
+
+    <!-- promotion section -->
+    <section class="promotion">
+        <div class="container flex-container">
+            
+                <div class="promotion-box flex-container">
+                    <div class="text">
+                        <h3>Party</h3>
+                        <button class="btn-flat btn-hover"><span>See Products</span></button>
+                    </div>
+                    <img src="./img/Beat That-1.png" alt="">
+                
+                </div>
+            
+                <div class="promotion-box flex-container">
+                    <div class="text">
+                        <h3>Family</h3>
+                        <button class="btn-flat btn-hover"><span>See Products</span></button>
+                    </div>
+                    <img src="./img/Baker Street-1.png" alt="">
+                
+                </div>
+            
+                <div class="promotion-box flex-container">
+                    <div class="text">
+                        <h3>Extensions</h3>
+                        <button class="btn-flat btn-hover"><span>See Products</span></button>
+                    </div>
+                    <img src="./img/Dead of Winter-1.png" alt="">
+                </div>
+           
+        </div>
+    </section>
+    <!-- end promotion section -->
+
+
+    
+    <!-- product list -->
+    <section class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest product</h2>
+            </div>
+            <div class="grid-container" id="latest-products">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./img/Best Tree House-1.jpg" alt="">
+                            <img src="./img/Best Tree House-2.jpg" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add'></i>
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-heart'></i>
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                Best Tree House
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>$300</del></span>
+                                <span class="curr-price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="section-footer">
+                <a href="./products.html" class="btn-flat btn-hover">view all</a>
+            </div>
+        </div>
+    </section>
+    <!-- end product list -->
+
+    <!-- special product -->
+    <section class="sp-prod bg-second">
+        <div class="container">
+            <div class="flex-container">
+                <div class="sp-item-img">
+                    <img src="./img/Fluxx-2.png" alt="">
+                </div>
+
+                <div class="sp-item-info">
+                    <h2 class="sp-item-name">Adventure Time Fluxx</h2>
+                    <p class="sp-item-description">
+                        Adventure Time Fluxx, as with all Fluxx card games, starts with one basic rule: Draw one card, Play one card. You start
+                            with a hand of three cards, so add the card you drew to your hand, and then choose one card to play, following the 
+                            directions written on your chosen card.
+                    </p>
+                    <button class="btn-flat btn-hover">shop now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end special product -->
+
+    <!-- product list -->
+    <section class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Best selling</h2>
+            </div>
+            <div class="grid-container" id="best-products">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./img/Best Tree House-1.jpg" alt="">
+                            <img src="./img/Best Tree House-2.jpg" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add'></i>
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-fav">
+                                    <i class='bx bxs-heart'></i>
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                Best Tree House
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>$300</del></span>
+                                <span class="curr-price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="section-footer">
+                <a href="./products.html" class="btn-flat btn-hover">view all</a>
+            </div>
+        </div>
+    </section>
+    <!-- end product list -->
+
+    <!-- footer -->
+    <footer class="bg-second">
+        <div class="container">
+            <div class="flex-container">
+                <div>
+                    <h3 class="footer-head">Products</h3>
+                    <ul class="menu">
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">product help</a></li>
+                        <li><a href="#">warranty</a></li>
+                        <li><a href="#">order status</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-head">services</h3>
+                    <ul class="menu">
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">product help</a></li>
+                        <li><a href="#">warranty</a></li>
+                        <li><a href="#">order status</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-head">support</h3>
+                    <ul class="menu">
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">product help</a></li>
+                        <li><a href="#">warranty</a></li>
+                        <li><a href="#">order status</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="contact">
+                        <h3 class="contact-header">
+                            ATShop
+                        </h3>
+                        <ul class="contact-socials">
+                            <li><a href="#">
+                                    <i class='bx bxl-facebook-circle'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-instagram-alt'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-youtube'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-twitter'></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="subscribe">
+                        <input type="email" placeholder="ENTER YOUR EMAIL">
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- app js -->
+    <script src="./js/app.js"></script>
+    <script src="./js/index.js"></script>
+
+    <!-- sterg -->
+    <script src="./js/favorite.js"></script>
+</body>
+
+</html>
